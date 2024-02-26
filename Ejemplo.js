@@ -3,6 +3,10 @@ function nuevoParrafo() {
     var texto = document.getElementById("texto").value;
     contenido.innerHTML = contenido.innerHTML + '<p>' + texto + '</p>';
 }
+
+
+
+
 document.getElementById('imagen').onchange = function(evt) {
     var entradaArchivo = evt.target,
         archivos = entradaArchivo.files;
